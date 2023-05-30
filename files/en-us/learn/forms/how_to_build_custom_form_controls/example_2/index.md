@@ -1,16 +1,13 @@
 ---
 title: Example 2
 slug: Learn/Forms/How_to_build_custom_form_controls/Example_2
-tags:
-  - Forms
-  - HTML
 ---
 
 This is the second example that explain [how to build custom form widgets](/en-US/docs/Learn/Forms/How_to_build_custom_form_controls).
 
 ## JS
 
-### HTML Content
+### HTML
 
 ```html
 <form class="no-widget">
@@ -35,7 +32,7 @@ This is the second example that explain [how to build custom form widgets](/en-U
 </form>
 ```
 
-### CSS Content
+### CSS
 
 ```css
 .widget select,
@@ -158,7 +155,7 @@ This is the second example that explain [how to build custom form widgets](/en-U
 }
 ```
 
-### JavaScript Content
+### JavaScript
 
 ```js
 window.addEventListener("load", () => {
@@ -169,13 +166,13 @@ window.addEventListener("load", () => {
 });
 ```
 
-### Result for JS
+### Result
 
 {{ EmbedLiveSample('JS', 120, 130) }}
 
 ## No JS
 
-### HTML Content
+### HTML
 
 ```html
 <form class="no-widget">
@@ -200,7 +197,7 @@ window.addEventListener("load", () => {
 </form>
 ```
 
-### CSS Content
+### CSS
 
 ```css
 .widget select,
@@ -212,6 +209,6 @@ window.addEventListener("load", () => {
 }
 ```
 
-### Result for No JS
+### Result
 
 {{ EmbedLiveSample('No_JS', 120, 130) }}

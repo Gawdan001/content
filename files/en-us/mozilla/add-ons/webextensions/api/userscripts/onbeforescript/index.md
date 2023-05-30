@@ -1,18 +1,7 @@
 ---
 title: userScripts.onBeforeScript
 slug: Mozilla/Add-ons/WebExtensions/API/userScripts/onBeforeScript
-tags:
-  - Add-ons
-  - Addons
-  - Customization
-  - Event
-  - Extensions
-  - Firefox
-  - Mozilla
-  - Reference
-  - User Scripts API
-  - WebExtensions
-  - userScripts
+page-type: webextension-api-event
 browser-compat: webextensions.api.userScripts.onBeforeScript
 ---
 
@@ -43,7 +32,7 @@ Events have three functions:
 
 - `listener`
 
-  - : A function that is called when this event occurs. The function is passed the following arguments:
+  - : The function called when this event occurs. The function is passed these arguments:
 
     - `script`
 

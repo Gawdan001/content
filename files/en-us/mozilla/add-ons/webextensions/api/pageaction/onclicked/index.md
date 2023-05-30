@@ -1,16 +1,7 @@
 ---
 title: pageAction.onClicked
 slug: Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked
-tags:
-  - API
-  - Add-ons
-  - Event
-  - Extensions
-  - Non-standard
-  - Reference
-  - WebExtensions
-  - onClicked
-  - pageAction
+page-type: webextension-api-event
 browser-compat: webextensions.api.pageAction.onClicked
 ---
 
@@ -30,7 +21,7 @@ browser.pageAction.onClicked.hasListener(listener)
 
 Events have three functions:
 
-- `addListener(callback)`
+- `addListener(listener)`
   - : Adds a listener to this event.
 - `removeListener(listener)`
   - : Stop listening to this event. The `listener` argument is the listener to remove.
@@ -41,9 +32,9 @@ Events have three functions:
 
 ### Parameters
 
-- `callback`
+- `listener`
 
-  - : A function that will be called when this event occurs. The function is passed the following arguments:
+  - : The function called when this event occurs. The function is passed these arguments:
 
     - `tab`
       - : A {{WebExtAPIRef('tabs.Tab')}} object representing the tab whose page action was clicked.

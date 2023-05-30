@@ -1,15 +1,7 @@
 ---
 title: Using CSS gradients
-slug: Web/CSS/CSS_Images/Using_CSS_gradients
+slug: Web/CSS/CSS_images/Using_CSS_gradients
 page-type: guide
-tags:
-  - Advanced
-  - CSS
-  - CSS Images
-  - Example
-  - Gradients
-  - Guide
-  - Web
 ---
 
 {{CSSRef}}

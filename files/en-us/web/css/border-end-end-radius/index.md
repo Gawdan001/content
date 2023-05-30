@@ -2,14 +2,6 @@
 title: border-end-end-radius
 slug: Web/CSS/border-end-end-radius
 page-type: css-property
-tags:
-  - CSS
-  - CSS Logical Property
-  - CSS Property
-  - Reference
-  - border-end-end-radius
-  - recipe:css-property
-  - writing modes
 browser-compat: css.properties.border-end-end-radius
 ---
 
@@ -65,7 +57,7 @@ border-end-end-radius: unset;
 </div>
 ```
 
-#### CSS Content
+#### CSS
 
 ```css
 div {
@@ -83,7 +75,7 @@ div {
 }
 ```
 
-#### Results
+#### Result
 
 {{EmbedLiveSample("Border_radius_with_vertical_text", 140, 140)}}
 

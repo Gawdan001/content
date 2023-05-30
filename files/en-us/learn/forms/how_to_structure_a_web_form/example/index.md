@@ -1,23 +1,15 @@
 ---
 title: Example
 slug: Learn/Forms/How_to_structure_a_web_form/Example
-tags:
-  - Beginner
-  - CSS
-  - Example
-  - Guide
-  - HTML
-  - Intro
-  - Reference
 ---
 
 This the example for a basic payment form for the article [How to structure an HTML form](/en-US/docs/Learn/Forms/How_to_structure_a_web_form).
 
 ## A payment form
 
-### HTML Content
+### HTML
 
-```html
+```html-nolint
 <form method="post">
   <h1>Payment form</h1>
   <p>
@@ -109,7 +101,7 @@ This the example for a basic payment form for the article [How to structure an H
 </form>
 ```
 
-### CSS Content
+### CSS
 
 ```css
 h1 {

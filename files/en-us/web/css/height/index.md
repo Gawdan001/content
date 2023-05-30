@@ -2,16 +2,6 @@
 title: height
 slug: Web/CSS/height
 page-type: css-property
-tags:
-  - CSS
-  - CSS Property
-  - Layout
-  - Reference
-  - Vertical
-  - dimensions
-  - height
-  - recipe:css-property
-  - size
 browser-compat: css.properties.height
 ---
 
@@ -51,7 +41,7 @@ height: unset;
 ### Values
 
 - {{cssxref("&lt;length&gt;")}}
-  - : Defines the height as an absolute value.
+  - : Defines the height as a distance value.
 - {{cssxref("&lt;percentage&gt;")}}
   - : Defines the height as a percentage of the containing block's height.
 - `auto`

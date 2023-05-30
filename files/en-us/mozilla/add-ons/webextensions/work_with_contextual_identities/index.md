@@ -1,13 +1,7 @@
 ---
 title: Work with contextual identities
 slug: Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
-tags:
-  - Add-ons
-  - Beginner
-  - Contextual identities
-  - Extensions
-  - How-to
-  - WebExtensions
+page-type: guide
 ---
 
 {{AddonSidebar}}
@@ -58,7 +52,6 @@ The main features of the [manifest.json](https://github.com/mdn/webextensions-ex
 
   ```json
     "browser_action": {
-      "browser_style": true,
       "default_title": "Contextual Identities",
       "default_popup": "context.html",
       "default_icon": {

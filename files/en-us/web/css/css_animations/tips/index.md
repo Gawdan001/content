@@ -1,13 +1,7 @@
 ---
 title: CSS Animations tips and tricks
-slug: Web/CSS/CSS_Animations/Tips
+slug: Web/CSS/CSS_animations/Tips
 page-type: guide
-tags:
-  - CSS
-  - CSS Animations
-  - Example
-  - Guide
-  - Reference
 ---
 
 {{CSSRef}}
@@ -16,11 +10,11 @@ CSS Animations make it possible to do incredible things with the elements that m
 
 ## Run an animation again
 
-The [CSS Animations](/en-US/docs/Web/CSS/CSS_Animations) specification doesn't offer a way to run an animation again. There's no magic `resetAnimation()` method on elements, and you can't even just set the element's {{cssxref("animation-play-state")}} to `"running"` again. Instead, you have to use clever tricks to get a stopped animation to replay.
+The [CSS Animations](/en-US/docs/Web/CSS/CSS_animations) specification doesn't offer a way to run an animation again. There's no magic `resetAnimation()` method on elements, and you can't even just set the element's {{cssxref("animation-play-state")}} to `"running"` again. Instead, you have to use clever tricks to get a stopped animation to replay.
 
 Here's one way to do it that we feel is stable and reliable enough to suggest to you.
 
-### HTML content
+### HTML
 
 First, let's define the HTML for a {{HTMLElement("div")}} we wish to animate and a button that will play (or replay) the animation.
 
@@ -30,7 +24,7 @@ First, let's define the HTML for a {{HTMLElement("div")}} we wish to animate and
 <div class="runButton">Click me to run the animation</div>
 ```
 
-### CSS content
+### CSS
 
 Now we'll define the animation itself using CSS. Some CSS that's not important (the style of the "Run" button itself) isn't shown here, for brevity.
 
@@ -75,7 +69,7 @@ There are two classes here. The `"box"` class is the basic description of the bo
 
 Note that because of this, the box doesn't start with any animation effects in place, so it won't be animating.
 
-### JavaScript content
+### JavaScript
 
 Next we'll look at the JavaScript that does the work. The meat of this technique is in the `play()` function, which is called when the user clicks on the "Run" button.
 
@@ -146,15 +140,15 @@ The following demo shows how you'd achieve the aforementioned JavaScript techniq
 ```
 
 ```js
-const watchme = document.getElementById('watchme');
+const watchme = document.getElementById("watchme");
 
-watchme.className = 'slidein'
+watchme.className = "slidein";
 const listener = (e) => {
-  watchme.className = 'slidein stopped'
-}
-watchme.addEventListener('click', () =>
-  watchme.addEventListener('animationiteration', listener, false)
-)
+  watchme.className = "slidein stopped";
+};
+watchme.addEventListener("click", () =>
+  watchme.addEventListener("animationiteration", listener, false)
+);
 ```
 
 Demo <https://jsfiddle.net/morenoh149/5ty5a4oy/>

@@ -1,13 +1,7 @@
 ---
 title: Working with the Tabs API
 slug: Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
-tags:
-  - Add-ons
-  - Beginner
-  - Extensions
-  - How-to
-  - WebExtensions
-  - tabs
+page-type: guide
 ---
 
 {{AddonSidebar}}
@@ -70,7 +64,6 @@ To see how {{WebExtAPIRef("tabs.query()")}} and {{WebExtAPIRef("tabs.Tab")}} are
     ```json
     {
       "browser_action": {
-        "browser_style": true,
         "default_title": "Tabs, tabs, tabs",
         "default_popup": "tabs.html"
       },
@@ -460,8 +453,7 @@ Let's walk through how it's set up.
       },
 
       "page_action": {
-        "default_icon": "icons/off.svg",
-        "browser_style": true
+        "default_icon": "icons/off.svg"
       },
 
       "permissions": ["activeTab", "tabs"]
